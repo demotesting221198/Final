@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="55.258" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bhagyesh/eclipse-workspace/Final/target/test-classes:/Users/bhagyesh/eclipse-workspace/Final/target/classes:/Users/bhagyesh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-java/2.45.0/selenium-java-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.45.0/selenium-chrome-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.45.0/selenium-htmlunit-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.15/htmlunit-2.15.jar:/Users/bhagyesh/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/bhagyesh/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/bhagyesh/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/bhagyesh/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/bhagyesh/.m2/repository/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3.jar:/Users/bhagyesh/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.15/htmlunit-core-js-2.15.jar:/Users/bhagyesh/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/bhagyesh/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/bhagyesh/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21.jar:/Users/bhagyesh/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.14/cssparser-0.9.14.jar:/Users/bhagyesh/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/bhagyesh/.m2/repository/org/eclipse/jetty/jetty-websocket/8.1.15.v20140411/jetty-websocket-8.1.15.v20140411.jar:/Users/bhagyesh/.m2/repository/org/eclipse/jetty/jetty-util/8.1.15.v20140411/jetty-util-8.1.15.v20140411.jar:/Users/bhagyesh/.m2/repository/org/eclipse/jetty/jetty-io/8.1.15.v20140411/jetty-io-8.1.15.v20140411.jar:/Users/bhagyesh/.m2/repository/org/eclipse/jetty/jetty-http/8.1.15.v20140411/jetty-http-8.1.15.v20140411.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.45.0/selenium-firefox-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.45.0/selenium-ie-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.45.0/selenium-safari-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-support/2.45.0/selenium-support-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/bhagyesh/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.45.0/selenium-leg-rc-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/testng/testng/6.8.8/testng-6.8.8.jar:/Users/bhagyesh/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/bhagyesh/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/bhagyesh/.m2/repository/com/browserstack/browserstack-local-java/1.0.3/browserstack-local-java-1.0.3.jar:/Users/bhagyesh/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/Users/bhagyesh/.m2/repository/org/json/json/20160212/json-20160212.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.44.0/selenium-remote-driver-2.44.0.jar:/Users/bhagyesh/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/bhagyesh/.m2/repository/com/google/code/gson/gson/2.3/gson-2.3.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-api/2.44.0/selenium-api-2.44.0.jar:/Users/bhagyesh/.m2/repository/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar:/Users/bhagyesh/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/Users/bhagyesh/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/bhagyesh/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/bhagyesh/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/Users/bhagyesh/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/bhagyesh/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/bhagyesh/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/client-drivers/selenium-java-client-driver/1.0.2/selenium-java-client-driver-1.0.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/bhagyesh/eclipse-workspace/Final/target/surefire/surefirebooter1016730327639158677.jar /Users/bhagyesh/eclipse-workspace/Final/target/surefire 2020-12-17T12-37-50_354-jvmRun1 surefire6865939284928705046tmp surefire_03906244427191281660tmp"/>
+    <property name="surefire.test.class.path" value="/Users/bhagyesh/eclipse-workspace/Final/target/test-classes:/Users/bhagyesh/eclipse-workspace/Final/target/classes:/Users/bhagyesh/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-java/2.45.0/selenium-java-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.45.0/selenium-chrome-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.45.0/selenium-htmlunit-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.15/htmlunit-2.15.jar:/Users/bhagyesh/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/bhagyesh/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/bhagyesh/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/bhagyesh/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/bhagyesh/.m2/repository/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3.jar:/Users/bhagyesh/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.15/htmlunit-core-js-2.15.jar:/Users/bhagyesh/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/bhagyesh/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/bhagyesh/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21.jar:/Users/bhagyesh/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.14/cssparser-0.9.14.jar:/Users/bhagyesh/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/bhagyesh/.m2/repository/org/eclipse/jetty/jetty-websocket/8.1.15.v20140411/jetty-websocket-8.1.15.v20140411.jar:/Users/bhagyesh/.m2/repository/org/eclipse/jetty/jetty-util/8.1.15.v20140411/jetty-util-8.1.15.v20140411.jar:/Users/bhagyesh/.m2/repository/org/eclipse/jetty/jetty-io/8.1.15.v20140411/jetty-io-8.1.15.v20140411.jar:/Users/bhagyesh/.m2/repository/org/eclipse/jetty/jetty-http/8.1.15.v20140411/jetty-http-8.1.15.v20140411.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.45.0/selenium-firefox-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.45.0/selenium-ie-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.45.0/selenium-safari-driver-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-support/2.45.0/selenium-support-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/bhagyesh/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.45.0/selenium-leg-rc-2.45.0.jar:/Users/bhagyesh/.m2/repository/org/testng/testng/6.8.8/testng-6.8.8.jar:/Users/bhagyesh/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/bhagyesh/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/bhagyesh/.m2/repository/com/browserstack/browserstack-local-java/1.0.3/browserstack-local-java-1.0.3.jar:/Users/bhagyesh/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/Users/bhagyesh/.m2/repository/org/json/json/20160212/json-20160212.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.44.0/selenium-remote-driver-2.44.0.jar:/Users/bhagyesh/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/bhagyesh/.m2/repository/com/google/code/gson/gson/2.3/gson-2.3.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/selenium-api/2.44.0/selenium-api-2.44.0.jar:/Users/bhagyesh/.m2/repository/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.jar:/Users/bhagyesh/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar:/Users/bhagyesh/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/bhagyesh/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/bhagyesh/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/Users/bhagyesh/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/bhagyesh/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/bhagyesh/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/bhagyesh/.m2/repository/org/seleniumhq/selenium/client-drivers/selenium-java-client-driver/1.0.2/selenium-java-client-driver-1.0.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bhagyesh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/bhagyesh/eclipse-workspace/Final"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/bhagyesh/eclipse-workspace/Final/target/surefire/surefirebooter1016730327639158677.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="bhagyesh"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/bhagyesh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/g_/vdlqspvx5w56h7yy_3wd5m340000gp/T/"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="/Users/bhagyesh/eclipse-workspace/Final"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/bhagyesh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="/Users/bhagyesh/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="f" classname="example.NewTest" time="53.027">
+    <system-out><![CDATA[Name
+24K Gold Plated iPhone Xs 256 GB Silver - Unlocked Custom
+New Apple iPhone 12 Pro Max (512GB, Pacific Blue) [Locked] + Carrier Subscription
+New Apple iPhone 12 Pro (512GB, Graphite) [Locked] + Carrier Subscription
+Apple iPhone XS [64GB, Space Gray] + Carrier Subscription [Cricket Wireless]
+Apple iPhone 11 Pro Max, 64GB, Midnight Green - Fully Unlocked (Renewed)
+New Apple iPhone 12 (64GB, Green) [Locked] + Carrier Subscription
+Apple iPhone XR [256GB, Coral] + Carrier Subscription [Cricket Wireless]
+New Apple iPhone 12 mini (64GB, (PRODUCT)RED) [Locked] + Carrier Subscription
+Apple Simple Mobile Prepaid - Apple iPhone 11 Pro Max (64GB) - Midnight Green [Locked to Carrier – Simple Mobile]
+Apple iPhone 11 [128GB, Purple] + Carrier Subscription [Cricket Wireless]
+Apple iPhone XS Max, 64GB, Gold - For AT&T (Renewed)
+Apple iPhone 7 Plus, 32GB, Black - For AT&T / T-Mobile (Renewed)
+Apple iPhone 8 Plus [128GB, Space Gray] + Carrier Subscription [Cricket Wireless]
+Apple iPhone XR, 128GB, Red - Fully Unlocked (Renewed)
+Apple iPhone 7, 32GB, Rose Gold - For AT&T (Renewed)
+Links
+https://www.amazon.com/24K-Gold-Plated-iPhone-Silver/dp/B078T2CZH5/ref=sr_1_1?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-1
+https://www.amazon.com/Apple-iPhone-Pacific-Carrier-Subscription/dp/B08L5M9LJ4/ref=sr_1_2?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-2
+https://www.amazon.com/Apple-iPhone-Graphite-Carrier-Subscription/dp/B08L5QPVH7/ref=sr_1_3?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-3
+https://www.amazon.com/Apple-iPhone-XS-64GB-Space/dp/B07VNNRWKC/ref=sr_1_4?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-4
+https://www.amazon.com/Apple-iPhone-64GB-Midnight-Green/dp/B07ZQS6LPZ/ref=sr_1_5?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-5
+https://www.amazon.com/Apple-iPhone-Locked-Carrier-Subscription/dp/B08L5RZTTK/ref=sr_1_6?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-6
+https://www.amazon.com/Apple-iPhone-XR-256GB-Coral/dp/B07VMNX5HD/ref=sr_1_7?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-7
+https://www.amazon.com/Apple-iPhone-PRODUCT-Carrier-Subscription/dp/B08L5RJ392/ref=sr_1_8?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-8
+https://www.amazon.com/Simple-Mobile-Prepaid-Midnight-Carrier/dp/B07XSQT4Q3/ref=sr_1_9?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-9
+https://www.amazon.com/Apple-Carrier-Subscription-Cricket-Wireless/dp/B084GSMNRN/ref=sr_1_10?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-10
+https://www.amazon.com/Apple-iPhone-Max-64GB-Gold/dp/B07RLPJV15/ref=sr_1_11?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-11
+https://www.amazon.com/Apple-iPhone-Plus-Unlocked-32GB/dp/B01NB1FOM3/ref=sr_1_12?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-12
+https://www.amazon.com/Apple-Carrier-Subscription-Cricket-Wireless/dp/B084N4WVQL/ref=sr_1_13?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-13
+https://www.amazon.com/Apple-iPhone-Fully-Unlocked-128/dp/B07P611Q4N/ref=sr_1_14?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-14
+https://www.amazon.com/Apple-iPhone-AT-32GB-Renewed/dp/B06XSHHZ62/ref=sr_1_15?dchild=1&keywords=iPhone+X&qid=1608188907&refinements=p_n_feature_twenty_browse-bin%3A17881878011&rnid=17881875011&s=wireless&sr=1-15
+Amazon.com : iPhone X
+]]></system-out>
+  </testcase>
+</testsuite>

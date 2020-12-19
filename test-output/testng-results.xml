@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="70726" started-at="2020-12-18T01:20:27 IST" finished-at="2020-12-18T01:21:38 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="70726" started-at="2020-12-18T01:20:27 IST" finished-at="2020-12-18T01:21:38 IST">
+      <class name="example.TestNGParallel">
+        <test-method status="PASS" signature="test4()[pri:0, instance:example.TestNGParallel@77a57272]" name="test4" duration-ms="53988" started-at="2020-12-18T01:20:27 IST" finished-at="2020-12-18T01:21:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:example.TestNGParallel@77a57272]" name="test1" duration-ms="33930" started-at="2020-12-18T01:20:27 IST" finished-at="2020-12-18T01:21:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:example.TestNGParallel@77a57272]" name="test2" duration-ms="55892" started-at="2020-12-18T01:20:27 IST" finished-at="2020-12-18T01:21:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:example.TestNGParallel@77a57272]" name="test3" duration-ms="70700" started-at="2020-12-18T01:20:27 IST" finished-at="2020-12-18T01:21:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- example.TestNGParallel -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
