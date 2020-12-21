@@ -44,7 +44,7 @@ public class NewTest {
 
 		caps.setCapability("project", "Amazon");
 		      
-		caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"););
+		caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
 	    
 	    caps.setCapability("browserstack.geoLocation", "IN");
 	    
