@@ -88,7 +88,7 @@
   
   <profiles>
     <profile>
-      <id>t1</id>
+      <id>Single</id>
       <build>
         <plugins>
         <plugin>
@@ -106,7 +106,7 @@
      </profile>
      
      <profile>
-     <id>t2</id>
+     <id>Parallel</id>
       <build>
         <plugins>
         <plugin>
@@ -125,7 +125,7 @@
      
      
      <profile>
-     <id>t3</id>
+     <id>Local</id>
       <build>
         <plugins>
         <plugin>
