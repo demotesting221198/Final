@@ -37,6 +37,10 @@ public class TestNGParallel {
 		    caps.setCapability("browser_version", "80");
 		    
 		    caps.setCapability("name", "demotesting4's First Test");
+
+			caps.setCapability("project", "Amazon");
+		      
+		    caps.setCapability("build", "V1.2");
 		    
 		    
 		    WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
@@ -167,6 +171,10 @@ public class TestNGParallel {
 		 caps.setCapability("device", "iPhone 8 Plus");
 		 
 		 caps.setCapability("real_mobile", "true");
+
+		 caps.setCapability("project", "Amazon");
+		      
+		    caps.setCapability("build", "V1.2");
 		 
 		 WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 		    
@@ -300,6 +308,11 @@ public class TestNGParallel {
 		 caps.setCapability("real_mobile", "true");
 		 
 		 caps.setCapability("browserstack.local", "false");
+
+
+		 caps.setCapability("project", "Amazon");
+		      
+		    caps.setCapability("build", "V1.2");
 		 
 		 WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 		    
@@ -433,6 +446,10 @@ public class TestNGParallel {
 		 caps.setCapability("browser_version", "84.0");
 		 
 		 caps.setCapability("browserstack.local", "false");
+
+		 caps.setCapability("project", "Amazon");
+		      
+		    caps.setCapability("build", "V1.2");
 		    
 		    WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 		    JavascriptExecutor jse = (JavascriptExecutor)driver;

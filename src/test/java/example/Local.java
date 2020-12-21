@@ -32,6 +32,10 @@ public class Local {
 	  caps.setCapability("device", "Samsung Galaxy S8");
 	  
 	  caps.setCapability("real_mobile", "true");
+	  
+	  caps.setCapability("project", "Amazon");
+		      
+	  caps.setCapability("build", "V1.3");
 
 	  
 	  

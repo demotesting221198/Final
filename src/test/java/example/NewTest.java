@@ -41,12 +41,16 @@ public class NewTest {
 	    caps.setCapability("browser_version", "80");
 	    
 	    caps.setCapability("name", "demotesting4's First Test");
+
+		caps.setCapability("project", "Amazon");
+		      
+		caps.setCapability("build", "V1.2");
 	    
 	    caps.setCapability("browserstack.geoLocation", "IN");
 	    
 	    caps.setCapability("browserstack.maskCommands", "setValues, getValues, setCookies, getCookies");
 	    
-	    caps.setCapability("browserstack.local", "true");
+	
 	    
 	    WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 	    JavascriptExecutor jse = (JavascriptExecutor)driver;
