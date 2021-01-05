@@ -35,7 +35,7 @@ public class Local {
 	  
 	  caps.setCapability("project", "Amazon");
 		      
-	  caps.setCapability("build", "V1.3");
+	  caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
 
 	  
 	  

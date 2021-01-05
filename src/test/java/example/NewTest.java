@@ -16,7 +16,7 @@ import org.openqa.selenium.JavascriptExecutor;
 
 public class NewTest {
 	
-	  public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
+	 public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
 	  
 	 public static final String AUTOMATE_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
 	  
