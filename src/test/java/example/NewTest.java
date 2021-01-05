@@ -16,9 +16,9 @@ import org.openqa.selenium.JavascriptExecutor;
 
 public class NewTest {
 	
-	 public static final String USERNAME = "bhagyeshnanwani4";
+	  public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
 	  
-	 public static final String AUTOMATE_KEY = "bQc9V5scoYwsAqxRnUvc";
+	 public static final String AUTOMATE_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
 	  
 	 public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 	
@@ -44,7 +44,7 @@ public class NewTest {
 
 		caps.setCapability("project", "Amazon");
 		      
-		caps.setCapability("build", "V1.2");
+		caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
 	    
 	    caps.setCapability("browserstack.geoLocation", "IN");
 	    

@@ -40,7 +40,7 @@ public class TestNGParallel {
 
 			caps.setCapability("project", "Amazon");
 		      
-		    caps.setCapability("build", "V1.2");
+		    caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
 		    
 		    
 		    WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
@@ -174,7 +174,7 @@ public class TestNGParallel {
 
 		 caps.setCapability("project", "Amazon");
 		      
-		    caps.setCapability("build", "V1.2");
+		caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
 		 
 		 WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 		    
@@ -312,7 +312,7 @@ public class TestNGParallel {
 
 		 caps.setCapability("project", "Amazon");
 		      
-		    caps.setCapability("build", "V1.2");
+		caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
 		 
 		 WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 		    
@@ -449,7 +449,7 @@ public class TestNGParallel {
 
 		 caps.setCapability("project", "Amazon");
 		      
-		    caps.setCapability("build", "V1.2");
+		caps.setCapability("build", System.getenv("BROWSERSTACK_BUILD_NAME"));
 		    
 		    WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 		    JavascriptExecutor jse = (JavascriptExecutor)driver;
