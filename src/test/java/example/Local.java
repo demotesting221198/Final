@@ -20,6 +20,8 @@ public class Local {
 	 public static final String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
 
          public static final String browserstackLocal = System.getenv("BROWSERSTACK_LOCAL");
+
+	 public static final String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
 	
 	
 	
@@ -43,7 +45,7 @@ public class Local {
 
 	  caps.setCapability("browserstack.local", browserstackLocal);
 
-	  
+	  caps.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
 	  
 	  WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 	  
